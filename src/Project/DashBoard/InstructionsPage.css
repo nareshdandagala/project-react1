@@ -1,0 +1,162 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  /* Container for the page */
+  .exam-instructions-container {
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header styling */
+  .header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: #ffffff;
+    width: 100%;
+  }
+  
+  .brand-logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Main content section */
+  .instructions-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px;
+    margin-top: 30px;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1s ease-in-out forwards;
+  }
+  
+  /* Left section with text */
+  .instructions-text {
+    max-width: 50%;
+  }
+  
+  .instructions-text h1 {
+    font-size: 48px;
+    color: #1f1f1f;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .instructions-text p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  .instructions-text ol {
+    margin-left: 20px;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.8;
+  }
+  
+  .instructions-text label {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  /* Checkbox styling */
+  input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    accent-color: #4CAF50;
+    transition: all 0.3s ease;
+  }
+  
+  input[type="checkbox"]:checked {
+    box-shadow: 0 0 10px #4CAF50;
+  }
+  
+  /* Button styling */
+  .in-btn{
+    background-color: #ff595e;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+    margin-top: 400px;
+    margin-right: 5px;
+    display: inline-block;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .in-btn:hover {
+    transform: translateY(-3px) scale(1.05);
+    background-color: #ff3e42;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .in-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+  }
+  
+  /* Right section with image */
+  .instructions-illustration img {
+    width: 500px;
+    height: auto;
+    cursor: pointer;
+    border-radius: 10px;
+    transform: perspective(1000px) rotateY(-15deg);
+    transition: transform 0.5s ease-in-out, box-shadow 0.5s ease;
+  }
+  
+  .instructions-illustration img:hover {
+    transform: perspective(1000px) rotateY(0deg);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  

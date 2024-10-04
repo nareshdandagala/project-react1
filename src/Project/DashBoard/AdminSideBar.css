@@ -1,0 +1,82 @@
+/* Global background for the page */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling the profile card */
+.profile-card {
+  width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background: transparent;
+  border-radius: 10px;
+  border: 2px solid rgba(255, 255, 255, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Add some animation when hovering over the card */
+.profile-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* Styling for the profile picture */
+.profile-card img {
+  border-radius: 50%;
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect on the profile image */
+.profile-card img:hover {
+  transform: scale(1.05);
+}
+
+/* Styling the text */
+.profile-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.profile-card p {
+  font-size: 16px;
+  color: #fff;
+}
+
+/* Navigation styles */
+.profile-card nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.profile-card nav ul li {
+  margin: 15px 0;
+  padding: 5px;
+}
+
+.profile-card nav ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #fff;
+  background-color: darkslategray;
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.profile-card nav ul li a:hover {
+  background-color: #6a11cb;
+}
+
+/* Adding a small 3D effect to links on hover */
+.profile-card nav ul li a:active {
+  transform: translateY(2px);
+}

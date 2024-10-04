@@ -1,0 +1,105 @@
+/* Background for the entire page */
+body {
+    /* background: linear-gradient(135deg, #72edf2 10%, #5151e5 100%); */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Form container with subtle 3D shadow */
+.question-form-container {
+   
+    background: transparent;
+    padding: 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 600px;
+    /* text-align: center; */
+    animation: slideIn 0.7s ease-in-out;
+}
+
+/* Form title */
+.question-title {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Smooth slide-in animation for form */
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Label and input styling */
+.form-label {
+    font-size: 16px;
+    color: #555;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+/* Focus state for input */
+.form-input:focus {
+    border-color: #5151e5;
+    outline: none;
+    box-shadow: 0 0 10px rgba(81, 81, 229, 0.2);
+}
+
+/* 3D Button styling */
+.form-btns {
+    background-color: #8d8ded;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 15px rgba(81, 81, 229, 0.4);
+}
+
+.form-btns:hover {
+    background-color: #72edf2;
+    box-shadow: 0 12px 20px rgba(81, 81, 229, 0.6);
+}
+
+/* Specific styles for Next and Finish buttons */
+.next-btn {
+    margin-right: 10px;
+}
+
+.finish-btn {
+    background-color: #43cea2;
+}
+
+/* Button active state (click effect) */
+.form-btsw:active {
+    transform: translateY(2px);
+}
+
+/* Style for form group */
+.form-group {
+    margin-bottom: 20px;
+}

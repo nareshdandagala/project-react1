@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .user-profile-container {
+    background-color:transparent;
+    border-radius: 10px;
+    padding: 30px;
+    border: 2px solid rgba(255, 255, 255, .1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    animation: fadeIn 0.8s ease-in-out forwards;
+  }
+  
+  .user-portal-heading, .user-welcome-heading {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: slideIn 0.6s ease-in-out forwards;
+  }
+  
+  .user-info {
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0;
+  }
+  .user-profile-image {
+    width: 300px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px auto;
+    cursor: pointer;
+    display: block;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transform: perspective(2000px) rotateY(-30deg);
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+  }
+  
+  .user-profile-image:hover {
+    transform: perspective(1000px) rotateY(2deg);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  .user-nav ul {
+    list-style-type: none;
+    margin-top: 30px;
+  }
+  
+  .user-nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+  
+  .user-quiz-button, .user-logout-link {
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .user-quiz-button:hover, .user-logout-link:hover {
+    transform: translateY(-3px) scale(1.05);
+    background-color: #ff3e42;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: scale(0.95);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

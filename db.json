@@ -1,0 +1,231 @@
+{
+  "images": [
+    {
+      "id": "f068",
+      "email": "anua00948@gmail.com",
+      "password": "Anusha",
+      "address": "VenkatagiriKota",
+      "imageUrl": "http://localhost:3000/images/crush6.jpg"
+    },
+    {
+      "id": "618b",
+      "name": "Marripati Lokesh",
+      "email": "marripatilokesh93@gmail.com",
+      "password": "Lokesh",
+      "address": "Piler",
+      "jobId": "1234",
+      "imageUrl": "http://localhost:3000/images/fri.jpg"
+    },
+    {
+      "id": "1477",
+      "name": "Anusha",
+      "email": "anua00948@gmail.com",
+      "password": "Anu",
+      "address": "Vizag",
+      "jobId": "12345",
+      "imageUrl": "http://localhost:3000/images/Anusha.png"
+    },
+    {
+      "id": "3dfb",
+      "name": "Lokesh M",
+      "email": "marripatilokesh237@gmail.com",
+      "password": "Lokesh237@",
+      "address": "Kadapa",
+      "jobId": "5678",
+      "imageUrl": "http://localhost:3000/images/img.jpg"
+    },
+    {
+      "id": "8452",
+      "name": "naresh",
+      "email": "naresh@gmail.com",
+      "password": "naresh123",
+      "address": "2-225",
+      "jobId": "123456",
+      "imageUrl": "http://localhost:3000/images/nauruto.webp"
+    },
+    {
+      "id": "a148",
+      "name": "naresh",
+      "email": "naresh@gmail.com",
+      "password": "naresh123",
+      "address": "2-225",
+      "jobId": "123456",
+      "imageUrl": "http://localhost:3000/images/nauruto.webp"
+    },
+    {
+      "id": "c2d3",
+      "name": "naresh",
+      "email": "naresh@gmail.com",
+      "password": "naresh123",
+      "address": "2-225",
+      "jobId": "123456",
+      "imageUrl": "http://localhost:3000/images/nauruto.webp"
+    }
+  ],
+  "technologies": [
+    {
+      "id": "1",
+      "name": "HTML"
+    },
+    {
+      "id": "2",
+      "name": "CSS"
+    },
+    {
+      "id": "3",
+      "name": "js"
+    }
+  ],
+  "questions": [
+    {
+      "id": "a7fd",
+      "technology": "CSS",
+      "questions": [
+        {
+          "question": "HTML Means ?",
+          "options": [
+            "Hyper Text markup language",
+            "Hyper Test markup language",
+            "Hyper Text makeup language",
+            "Hype Text markup language"
+          ],
+          "answer": "Hyper Text markup language"
+        }
+      ]
+    },
+    {
+      "id": "0faf",
+      "technology": "HTML",
+      "questions": [
+        {
+          "question": "How to define P tag in HTML?",
+          "options": [
+            "<p>",
+            "p",
+            "</p>",
+            "<p/>"
+          ],
+          "answer": "<p>"
+        }
+      ]
+    },
+    {
+      "id": "2c75",
+      "technology": "HTML",
+      "questions": [
+        {
+          "question": "",
+          "options": [
+            "",
+            "",
+            "",
+            ""
+          ],
+          "answer": ""
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "f0ef",
+      "userId": 1,
+      "technology": "CSS",
+      "score": 1,
+      "totalQuestions": 1
+    },
+    {
+      "id": "393f",
+      "userId": 1,
+      "technology": "CSS",
+      "score": 1,
+      "totalQuestions": 1
+    },
+    {
+      "id": "5783",
+      "userId": 1,
+      "technology": "CSS",
+      "score": 1,
+      "totalQuestions": 1
+    }
+  ],
+  "users": [
+    {
+      "id": "8708",
+      "name": "Marripati Lokesh",
+      "email": "marripatilokesh93@gmail.com",
+      "password": "Lokesh93@",
+      "address": "Andhra Pradesh",
+      "imageUrl": "http://localhost:3000/images/Friend.jpg",
+      "score": []
+    },
+    {
+      "id": "94a7",
+      "name": "Nandu",
+      "email": "nandu123@gmail.com",
+      "password": "nandu123@",
+      "address": "Piler",
+      "imageUrl": "http://localhost:3000/images/Friends.jpg",
+      "scores": [
+        {
+          "technology": "CSS",
+          "score": 1,
+          "totalQuestions": 1
+        }
+      ]
+    },
+    {
+      "id": "eec3",
+      "name": "naresh",
+      "email": "naresh@lyrostech.com",
+      "password": "naresh123",
+      "address": "2-155 kakinada",
+      "imageUrl": "http://localhost:3000/images/back1.jpg",
+      "scores": [
+        {
+          "technology": "HTML",
+          "score": 1,
+          "totalQuestions": 1
+        },
+        {
+          "technology": "HTML",
+          "score": 0,
+          "totalQuestions": 1
+        },
+        {
+          "technology": "HTML",
+          "score": 0,
+          "totalQuestions": 1
+        }
+      ]
+    },
+    {
+      "id": "86b5",
+      "name": "naresh",
+      "email": "naresh@lyrostech.com",
+      "password": "naresh123",
+      "address": "2-155 kakinada",
+      "imageUrl": "http://localhost:3000/images/nauruto.webp"
+    },
+    {
+      "id": "b49b",
+      "name": "naresh",
+      "email": "naresh@gmail.com",
+      "password": "naresh123",
+      "address": "2-225",
+      "imageUrl": "http://localhost:3000/images/nauruto.webp",
+      "scores": [
+        {
+          "technology": "HTML",
+          "score": 0,
+          "totalQuestions": 1
+        },
+        {
+          "technology": "HTML",
+          "score": 0,
+          "totalQuestions": 1
+        }
+      ]
+    }
+  ]
+}
